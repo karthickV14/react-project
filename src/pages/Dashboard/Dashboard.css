@@ -1,0 +1,45 @@
+.dashboard-header-title {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  border-bottom: 1px solid #b7b4b46d;
+  color: #002a6e;
+}
+
+.dashboard-page {
+  padding: 10px 15px;
+  margin: 10px 15px;
+  background-color: #e6ecf3;
+}
+
+.dashboard-card {
+  max-width: 180px;
+  height: 180px;
+  /* border: 0; */
+  border: 1px solid #ffffff22;
+  border-radius: 0.7rem;
+  padding: 40px;
+  box-shadow: 0 1px 45px 5px #00000028;
+}
+.dashboard-card div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98px;
+  width: 98px;
+}
+
+.dashboard-card:hover {
+  border: 1px solid #ffffff44;
+  box-shadow: 0 7px 80px 5px #00000038;
+  transform: scale(1.01);
+  transition: 1s all;
+  filter: brightness(1.3);
+  ::before {
+    filter: brightness(0.5);
+    top: -100%;
+    left: 200%;
+  }
+}

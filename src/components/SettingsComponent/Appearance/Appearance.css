@@ -1,0 +1,19 @@
+.appearance-theam,
+.appearance-language {
+  margin: 25px 10px;
+  padding: 10px;
+  /* height: 15vh; */
+  /* border-bottom: 3px solid #fff; */
+}
+.appearance-theam h6,
+.appearance-language h6 {
+  color: #002f6e;
+}
+.appearance-language {
+  display: flex;
+}
+
+.appearance-language div {
+  margin-left: 20px;
+  padding-top: 0;
+}

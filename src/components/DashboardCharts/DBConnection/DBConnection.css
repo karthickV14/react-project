@@ -1,0 +1,128 @@
+.db-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #df1c1c; */
+  width: 100%;
+}
+.db-container {
+  padding: 20px;
+}
+
+.db-area {
+  max-width: 600px;
+  margin: auto;
+}
+
+.db-input-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.db-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.db-inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lable-auth {
+  min-width: 150px;
+}
+
+.input-auth {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.db-submit {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.change-auth {
+  display: flex;
+  justify-content: end;
+}
+
+.area-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: larger;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  outline: none;
+  background: none;
+  border: none;
+}
+.area-title:hover {
+  background-color: #ffffff;
+  color: #002f6e;
+  transform: scale(1.1);
+}
+
+.db-area {
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  background-color: #fff;
+  width: 70%;
+  box-shadow: 0 1px 15px 5px #00000028;
+}
+.change-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #002f6e;
+}
+
+.db-inputs {
+  width: 100%;
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.db-inputs .lable-auth {
+  width: 35%;
+  margin-top: 10px;
+  font-weight: 500;
+  display: flex;
+  color: #002f6e;
+  /* flex-direction: row;
+  justify-content: center; */
+  align-items: center;
+}
+.db-inputs .input-auth {
+  width: 40%;
+  padding: 3px;
+}
+.db-submit {
+  margin-top: 25px;
+  text-align: center;
+  /* padding: 7px 20px; */
+  /* border: 1px solid orange; */
+}
+.db-submit button {
+  padding: 4px 20px;
+  /* position: fixed; */
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #002f6e;
+  color: aliceblue;
+  font-weight: 500;
+}

@@ -1,0 +1,58 @@
+.dataset-container {
+  background-color: #e6ecf3;
+}
+.dataset-header-title {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b7b4b46d;
+  background-color: aliceblue;
+}
+.dataset-header-title h4 {
+  color: #002a6e;
+  margin: 4px 10px;
+}
+
+.css-177gid-MuiTableCell-root,
+.css-1yhpg23-MuiTableCell-root,
+.css-1q1u3t4-MuiTableRow-root {
+  padding: 0;
+}
+.table-page p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dataset-area {
+  height: 100vh;
+}
+
+.dataset-options {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 25px;
+  padding: 5px 10px 15px 10px;
+}
+
+.dataset-table {
+  margin: 20px;
+  padding: 10px;
+}
+
+.dataset-table .MuiPaper-root {
+  box-shadow: none;
+}
+
+/* .dataset-table .MuiTableCell-root {
+  padding: 8px;
+} */
+
+.dataset-table .MuiTablePagination-root {
+  border-top: 1px solid rgba(224, 224, 224, 1);
+}
+
+.dataset-table .css-xn82ks-MuiTable-root {
+  text-wrap: nowrap;
+}

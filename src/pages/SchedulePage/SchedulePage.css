@@ -1,0 +1,29 @@
+.schedule-container {
+  background-color: #e6ecf3;
+}
+.schedule-header-title {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b7b4b46d;
+  background-color: aliceblue;
+}
+.schedule-header-title h4 {
+  color: #002a6e;
+  margin: 4px 10px;
+}
+
+.schedule-area {
+  height: 100vh;
+}
+
+.schedule-options {
+  display: flex;
+  align-items: center;
+  margin: 10px 25px;
+  padding: 5px 10px 15px 10px;
+}
+
+.schedule-left {
+}

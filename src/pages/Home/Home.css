@@ -1,0 +1,134 @@
+.dashboard-container {
+  background-color: #e6ecf3;
+  display: flex;
+  height: 100vh;
+}
+.slider-header {
+  color: ghostwhite;
+  text-align: center;
+  padding: 20px 10px 10px;
+}
+
+.sidebar-control {
+  position: absolute;
+  top: 32px;
+}
+
+.slider-bar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #002f6e;
+}
+
+.navbar-link {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.navbar-list .link {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin-top: 5px;
+  width: 100%;
+  text-align: left;
+  text-decoration: none;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  font-size: smaller;
+  font-weight: 500;
+  color: aliceblue;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  filter: drop-shadow(0 10px 10px rgba(8, 63, 97, 0.233));
+}
+
+.navbar-list .link .icon {
+  padding: 4px;
+  margin: 4px;
+  font-size: xx-small;
+}
+
+.navbar-list .link:hover {
+  background-color: #00bbf0;
+  color: #002f6e;
+  border-radius: 20px;
+  transform: scale(1.03);
+}
+.navbar-list .link .icon:hover {
+  background-color: #00bbf0;
+  color: #002f6e;
+  border-radius: 20px;
+  transform: scale(1.03);
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.footer-list button {
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  border: none;
+  font-size: small;
+  font-weight: 500;
+  color: whitesmoke;
+  background: none;
+}
+
+.footer-list button span {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.footer-list button:hover {
+  background-color: #00bbf0;
+  color: #002f6e;
+  border-radius: 20px;
+}
+
+.active {
+  background: #00bbf0;
+  color: #002f6e;
+}
+
+/* Title Section */
+
+.header-title h4 {
+  padding-top: 10px;
+  color: #002f6e;
+}
+
+/* Body Area */
+
+.main-content {
+  height: auto;
+  width: 100%;
+}
+
+.dashboard-section-two {
+  max-height: 100vh;
+  overflow: auto;
+}

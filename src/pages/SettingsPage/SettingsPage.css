@@ -1,0 +1,15 @@
+.settings-page-container {
+  background-color: #e6ecf3;
+}
+.settings-page-header-title {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b7b4b46d;
+  background-color: aliceblue;
+}
+.settings-page-header-title h4 {
+  color: #002a6e;
+  margin: 4px 10px;
+}
